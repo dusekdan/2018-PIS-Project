@@ -1,0 +1,128 @@
+.restaurant-header img {
+
+    width: 100%;
+    margin: auto;
+
+}
+
+.restaurant-header {
+
+    margin-top: 0;
+
+}
+
+/* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    /*background-color: rgba(150,82,95,1);
+    background-color: rgb(112, 56, 58);*/
+    background-color: rgb(95, 47, 47);
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 2px;
+    opacity:0.9;
+
+}
+
+.navbar li a, .navbar .navbar-brand, .navbar a {
+    color: #F9E9EE !important;
+}
+
+.navbar-nav li.active a, .navbar-nav li.active a:active {
+    color: #fff !important;
+    background-color:  rgb(20, 2, 1);
+    /*background-color: rgba(249,233,238, 0.2);*/
+
+ }
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover, .navbar-nav li a:focus {
+
+    color: #fff !important;
+    background-color: rgba(20,2,1, 0.2);
+}
+
+.container-fluid {
+
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    padding: 30px 0px;
+    color: #F9E9EE !important;
+}
+
+.container h3
+{
+    color: #f9dde3 !important;
+    /*color: rgb(112, 56, 58);*/
+    letter-spacing: 2px;
+}
+
+body
+{
+    background-color: rgb(95, 47, 47);
+}
+
+#menu .datum {
+
+    color: #ba999c !important;
+
+}
+
+form {
+
+    margin-top: 30px;
+}
+
+#reservationForm .form-control, #feedbackForm .form-control, #stornoForm .form-control {
+    border-radius: 0;
+    display: inline-table;
+}
+
+#reservationForm .button, #feedbackForm .button, #stornoForm .button {
+
+    border-radius: 0;
+    padding: 12px 22px;
+    margin-top: 15px;
+    color: #fff !important;
+
+    background-color: #38181b;
+    border: solid #ba999c 1px ;
+    letter-spacing: 2px;
+
+
+}
+
+#reservationForm button:hover, #reservationForm button:active, #reservationForm button:focus,
+#feedbackForm button:hover, #feedbackForm button:active, #feedbackForm button:focus,
+#stornoForm button:hover, #stornoForm button:active, #stornoForm button:focus{
+    color: #fff !important;
+
+    background-color:  rgba(20, 2, 1, 0.9);
+    border: solid rgb(20, 2, 1) 1px ;
+
+}
+
+
+#reservationForm .date:read-only {
+    background: transparent;
+    border: none;
+    color: #F9E9EE !important;
+}
+
+#reservationForm .required::placeholder, #feedbackForm .required::placeholder, #stornoForm .required::placeholder
+{
+    font-weight: 700;
+}
+
+.info {
+    margin-top: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+
+
+

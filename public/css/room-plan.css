@@ -1,0 +1,76 @@
+table.room-plan {
+    table-layout: fixed;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: medium;
+    letter-spacing: 1px;
+    overflow-x: hidden;
+}
+
+table.room-plan tr > th, table.room-plan tr > td {
+
+    color: transparent;
+    min-height: 50px;
+}
+
+
+table.room-plan .seat {
+
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: steelblue;
+}
+
+table.room-plan .room-table {
+
+    border-radius: 5%;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: steelblue;
+    font-weight: lighter;
+    color: white;
+}
+
+table.room-plan .room-saloon {
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: steelblue;
+    font-weight: lighter;
+    color: white;
+}
+
+table.room-plan .room-table
+{
+    border-radius: 5%;
+}
+
+table.room-plan .room-saloon
+{
+    border-radius: 50%;
+}
+
+iframe.seemless
+{
+    /* Making iframe seemless */
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+
+    /* Fitting iframe into the jquery dialog */
+    width: 100%;
+    height: 100%;
+
+}
+
+.hasOrder
+{
+    background-color: crimson !important;
+}

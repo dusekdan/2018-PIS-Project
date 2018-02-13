@@ -1,0 +1,62 @@
+table.room-plan {
+    table-layout: fixed;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+table.room-plan tr > th, table.room-plan tr > td {
+
+    color: transparent;
+    min-height: 50px;
+}
+
+
+table.room-plan .seat {
+
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: rgb(192,96,56);
+}
+
+table.room-plan .room-table, table.room-plan .room-saloon {
+
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: rgb(192,96,56);
+    font-weight: lighter;
+    color: white;
+    border: none;
+}
+
+table.room-plan .room-table
+{
+    border-radius: 5%;
+}
+
+table.room-plan .room-saloon
+{
+    border-radius: 50%;
+}
+
+table.room-plan .room-table.selected, table.room-plan .room-saloon.selected, table.room-plan .seat.selected{
+    background: rgb(249, 188, 131);
+    box-shadow: 0 0 6px rgb(255, 255, 255);
+}
+
+table.room-plan .room-table:hover, table.room-plan .room-saloon:hover, table.room-plan .seat:hover {
+    background: rgb(249, 188, 131);
+    box-shadow: 0 0 12px rgb(250, 264, 243);
+}
+
+table.room-plan .room-table.disabled, table.room-plan .room-saloon.disabled, table.room-plan .seat.disabled{
+    cursor: not-allowed;
+    background: rgb(208, 208, 208);
+    box-shadow: 1px 1px 1px rgb(103, 103, 103);
+}

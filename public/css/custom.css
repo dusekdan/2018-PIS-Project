@@ -1,0 +1,18 @@
+label.required
+{
+    font-weight: bold;
+}
+label.required:after
+{
+    content: "*";
+    color: red;
+}
+
+.info
+{
+    font-style: italic;
+}
+
+button, input[type=submit] {
+    cursor: pointer;
+}
